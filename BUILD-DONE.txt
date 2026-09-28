@@ -1,0 +1,4 @@
+Test count: 24 passed (pytest)
+Local build commit hash: f17de2d485e762c3d6903d8465b4b9f8908f322f
+
+Built ModelRouter as a CPU-only, deterministic, offline, rule-based routing CLI with a clearly labeled synthetic fixture catalogue and illustrative costs, explainable difficulty and privacy scores, ordered capability, privacy, and latency policy filters, estimated cost accounting, JSONL decision auditing, workload simulation, metrics, and Markdown and HTML reports. The README documents setup, architecture, policy examples, estimate methods, and the honesty boundary. The full test suite passes, and no real model API calls are made.
