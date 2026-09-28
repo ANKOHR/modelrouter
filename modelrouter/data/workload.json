@@ -1,0 +1,8 @@
+[
+  {"id": "greeting", "task": "Say hello in a friendly way."},
+  {"id": "summary", "task": "Summarize this short paragraph in two sentences."},
+  {"id": "code-review", "task": "Review this Python code for a bug, explain the issue, and suggest a fix."},
+  {"id": "planning", "task": "Compare two options, reason through the tradeoffs, and provide a step by step recommendation."},
+  {"id": "private-note", "task": "Summarize internal confidential project notes for the team."},
+  {"id": "long-report", "task": "Analyze this long context document and produce a concise report with the key findings."}
+]

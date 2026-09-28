@@ -1,0 +1,50 @@
+{
+  "catalogue_notice": "SYNTHETIC fixture data. Illustrative prices and latencies, not live provider quotes. No real API calls are made.",
+  "models": [
+    {
+      "id": "local-safe",
+      "label": "Local Safe",
+      "input_cost_per_1k": 0.12,
+      "output_cost_per_1k": 0.36,
+      "p50_latency_ms": 900,
+      "capabilities": ["code", "reasoning", "vision", "long-context", "tools"],
+      "privacy_class": "local"
+    },
+    {
+      "id": "private-pro",
+      "label": "Private Pro",
+      "input_cost_per_1k": 0.18,
+      "output_cost_per_1k": 0.55,
+      "p50_latency_ms": 420,
+      "capabilities": ["code", "reasoning", "vision", "long-context", "tools"],
+      "privacy_class": "private"
+    },
+    {
+      "id": "swift-small",
+      "label": "Swift Small",
+      "input_cost_per_1k": 0.06,
+      "output_cost_per_1k": 0.18,
+      "p50_latency_ms": 160,
+      "capabilities": ["code", "tools"],
+      "privacy_class": "public-api"
+    },
+    {
+      "id": "general-mid",
+      "label": "General Mid",
+      "input_cost_per_1k": 0.28,
+      "output_cost_per_1k": 0.84,
+      "p50_latency_ms": 340,
+      "capabilities": ["code", "reasoning", "tools", "long-context"],
+      "privacy_class": "public-api"
+    },
+    {
+      "id": "flagship",
+      "label": "Flagship Reference",
+      "input_cost_per_1k": 1.80,
+      "output_cost_per_1k": 7.20,
+      "p50_latency_ms": 700,
+      "capabilities": ["code", "reasoning", "vision", "long-context", "tools"],
+      "privacy_class": "public-api"
+    }
+  ]
+}

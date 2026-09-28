@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+mr-audit.jsonl
+mr-prompt.txt
+mr-launch.py
+mr-codex.log
